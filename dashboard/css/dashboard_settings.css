@@ -1,0 +1,12 @@
+.dashboard_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard_style_left {
+    float: left;
+} 
+
+.dashboard_style_right {
+    float: right;
+} 

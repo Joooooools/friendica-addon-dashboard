@@ -1,0 +1,193 @@
+# ADDON Dashboard
+# Copyright (C)
+# This file is distributed under the same license as the Friendica Dashboard addon package.
+#
+# Translators:
+# Jools
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Dashboard 1.0\n"
+"POT-Creation-Date: 2024-12-18 12:00+0000\n"
+"PO-Revision-Date: 2024-12-18 12:00+0000\n"
+"Last-Translator: Jools <EMAIL@ADDRESS>\n"
+"Language-Team: German <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manual\n"
+"Language: de\n"
+"X-Domain: dashboard\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dashboard.php:56
+msgid "Copy Text"
+msgstr "Kopieren"
+
+#: dashboard.php:57
+msgid "Copied"
+msgstr "Kopiert"
+
+#: dashboard.php:91
+msgid "Week"
+msgstr "Woche"
+
+#: dashboard.php:92
+msgid "Current Time"
+msgstr "Aktuelle Zeit"
+
+#: dashboard.php:140
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: dashboard.php:147 dashboard.php:389
+msgid "Appointments"
+msgstr "Termine"
+
+#: dashboard.php:148
+msgid "Reminder enabled"
+msgstr "Erinnerung aktiviert"
+
+#: dashboard.php:149 dashboard.php:395
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: dashboard.php:156
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: dashboard.php:179
+msgid "Invalid date/time for appointment #%1$d: %2$s"
+msgstr "Ungültiges Datum/Uhrzeit für Termin #%1$d: %2$s"
+
+#: dashboard.php:213
+msgid "Potentially dangerous content in template #%d. Not saved."
+msgstr "Möglicherweise gefährlicher Inhalt in Vorlage #%d. Nicht gespeichert."
+
+#: dashboard.php:334 dashboard.php:401
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: dashboard.php:335 dashboard.php:402
+msgid "Date and Time"
+msgstr "Datum und Uhrzeit"
+
+#: dashboard.php:336 dashboard.php:403
+msgid "Show this appointment in the Dashboard"
+msgstr "Diesen Termin im Dashboard anzeigen"
+
+#: dashboard.php:337 dashboard.php:404
+msgid "Enable alarm for this appointment"
+msgstr "Erinnerung für diesen Termin aktivieren"
+
+#: dashboard.php:342 dashboard.php:394
+msgid "Appointment"
+msgstr "Termin"
+
+#: dashboard.php:343
+msgid "Add Appointment"
+msgstr "Termin erstellen"
+
+#: dashboard.php:344
+msgid "Delete"
+msgstr "Löschen"
+
+#: dashboard.php:345
+msgid "You can only add up to 10 appointments."
+msgstr "Es können maximal 10 Termine erstellt werden."
+
+#: dashboard.php:347
+msgid "Add Template"
+msgstr "Vorlage erstellen"
+
+#: dashboard.php:348
+msgid "You can only add up to 10 templates."
+msgstr "Du kannst nur bis zu 10 Vorlagen erstellen."
+
+#: dashboard.php:350
+msgid "Template"
+msgstr "Vorlage"
+
+#: dashboard.php:373
+msgid "Customize Dashboard Style"
+msgstr "Dashboard-Stil anpassen"
+
+#: dashboard.php:378
+msgid "Select your preferred theme for the Dashboard."
+msgstr "Bevorzugtes Design für das Dashboard auswählen."
+
+#: dashboard.php:379
+msgid "The Dashboard Addon provides a customizable dashboard in the network sidebar. It displays the current date, week, time, appointments with reminder functionality, and templates. The style of the widget can be chosen from various designs."
+msgstr "Das Dashboard-Addon bietet ein individuell anpassbares Dashboard in der Netzwerk-Seitenleiste. Es zeigt das aktuelle Datum, die Woche, die Uhrzeit, Termine mit Erinnerungsfunktion sowie Vorlagen an. Der Stil des Widgets kann aus verschiedenen Designs ausgewählt werden."
+
+#: dashboard.php:380
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: dashboard.php:381
+msgid "Activate Dashboard Widget and display it in the Sidebar"
+msgstr "Dashboard-Widget aktivieren und in der Seitenleiste anzeigen"
+
+#: dashboard.php:382
+msgid "Select Timezone"
+msgstr "Zeitzone auswählen"
+
+#: dashboard.php:382
+msgid "Select preferred timezone for times and appointments."
+msgstr "Bevorzugte Zeitzone für Uhrzeit und Termine auswählen."
+
+#: dashboard.php:383
+msgid "Select Date Format"
+msgstr "Datumsformat auswählen"
+
+#: dashboard.php:383
+msgid "Select preferred date format for times and appointments."
+msgstr "Bevorzugtes Datumsformat für Uhrzeit und Termine auswählen."
+
+#: dashboard.php:385
+msgid "Show \"Uhr\" after time"
+msgstr "Zeige das Wort \"Uhr\" bei der Zeit an"
+
+#: dashboard.php:387
+msgid "Show \"Uhr\" after appointment times"
+msgstr "Zeige das Wort \"Uhr\" bei Terminen an"
+
+#: dashboard.php:388
+msgid "Overview"
+msgstr "Übersicht"
+
+#: dashboard.php:390
+msgid "Up to 10 appointments can be displayed in the Dashboard. In addition, a reminder can be activated for the appointment. At the desired time, if the reminder is activated, the appointment will be highlighted in red in the Dashboard."
+msgstr "Bis zu 10 Termine können im Dashboard angezeigt werden. Zusätzlich kann eine Erinnerung für den Termin aktiviert werden. Zur gewünschten Zeit wird der Termin, wenn die Erinnerung aktiviert ist, im Dashboard rot hervorgehoben."
+
+#: dashboard.php:392
+msgid "Show Appointments in the Dashboard"
+msgstr "Termine im Dashboard anzeigen"
+
+#: dashboard.php:396
+msgid "With the help of templates, frequently used texts, links, etc. can be saved and displayed in the Dashboard. With a click, the template is copied to the clipboard and can then be pasted anywhere."
+msgstr "Mit Hilfe von Vorlagen können häufig verwendete Texte, Links usw. gespeichert und im Dashboard angezeigt werden. Mit einem Klick wird die Vorlage in die Zwischenablage kopiert und kann so überall eingefügt werden."
+
+#: dashboard.php:398
+msgid "Show Templates in the Dashboard"
+msgstr "Vorlagen im Dashboard anzeigen"
+
+#: dashboard.php:400
+msgid "Show Template in the Dashboard"
+msgstr "Diese Vorlage im Dashboard anzeigen"
+
+#: dashboard.php:409
+msgid "Create New Appointment"
+msgstr "Neuen Termin erstellen"
+
+#: dashboard.php:410
+msgid "Create New Template"
+msgstr "Neue Vorlage erstellen"
+
+#: dashboard.php:411
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: dashboard.php:416
+msgid "Dashboard Settings"
+msgstr "Dashboard-Einstellungen"

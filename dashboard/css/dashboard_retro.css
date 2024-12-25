@@ -1,0 +1,181 @@
+.dashboard-widget {
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-widget h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+.dashboard-widget p {
+    font-size: 0.9em;
+    color: #555555;
+}
+
+.block {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.current-date-block {
+    background-color: #dedede;
+    text-align: center;
+}
+
+.current-date-block h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.current-date-block p {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #777777;
+}
+
+.appointments-block {
+    background-color: #dedede;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.appointment-dashboard-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    color: #555555;
+    border: 1px solid #cccccc;
+    background-color: #dedede;
+    border-radius: 10px;
+    transition: color 0.3s ease;
+}
+
+.alarm-icon {
+    color: #ff9800;
+    margin-left: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.template-block {
+    background-color: #dedede;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.template-item {
+    background-color: #dedede;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.template-item p {
+    font-size: 1em;
+    color: #555555;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.copy-text-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+
+.copy-button {
+    font-size: 10px;
+    color: #007bff;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.copy-button:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.dashboard-settings-link {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 10px;
+}
+
+.dashboard-settings-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.dashboard-settings-link a:hover {
+    text-decoration: underline;
+}
+
+@-webkit-keyframes shake {
+    0% { -webkit-transform: translateX(0); transform: translateX(0); }
+    10% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    20% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    30% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    40% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    50% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    60% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    70% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    80% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    90% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    100% { -webkit-transform: translateX(0); transform: translateX(0); }
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-2px); }
+    20% { transform: translateX(2px); }
+    30% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    50% { transform: translateX(-2px); }
+    60% { transform: translateX(2px); }
+    70% { transform: translateX(-2px); }
+    80% { transform: translateX(2px); }
+    90% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    -webkit-animation: shake 0.5s infinite;
+    animation: shake 0.5s infinite;
+    border-color: #ff0000;
+    background-color: #ffe6e6;
+}
+.template-text {
+    display: inline-block;
+    max-width: 25ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: inherit;
+    font-size: 14px;
+    position: relative;
+    cursor: default;
+    color: #555555;
+}

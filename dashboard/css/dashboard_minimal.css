@@ -1,0 +1,224 @@
+.dashboard-widget {
+    font-family: 'Arial', sans-serif;
+}
+
+.dashboard-widget h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.dashboard-widget p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.block {
+    padding: 5px 10px;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.current-date-block {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.current-date-block h3 {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.current-date-block p {
+    margin: 2px 0;
+    font-size: 13px;
+}
+
+.appointments-block {
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.appointment-dashboard-item {
+    margin-bottom: 5px;
+    padding: 2px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.appointment-dashboard-item:last-child {
+    border-bottom: none;
+}
+
+.appointment-dashboard-item strong {
+    display: block;
+    margin-bottom: 2px;
+    line-height: 1.2;
+}
+
+.appointment-dashboard-item br {
+    display: none;
+}
+
+.appointment-dashboard-item span {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.alarm-icon {
+    color: #ff9800;
+    margin-left: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.template-block {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.template-item {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.template-item:last-child {
+    border-bottom: none;
+}
+
+.template-item p {
+    font-size: 1em;
+    margin: 0;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.copy-text-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+
+.copy-button {
+    font-size: 10px;
+    color: #007bff;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.copy-button:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.dashboard-settings-link {
+    margin: 0;
+    padding: 0 0 0 5px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.dashboard-settings-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.dashboard-settings-link a:hover {
+    text-decoration: underline;
+}
+
+@-webkit-keyframes shake {
+    0% { -webkit-transform: translateX(0); transform: translateX(0); }
+    10% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    20% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    30% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    40% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    50% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    60% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    70% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    80% { -webkit-transform: translateX(2px); transform: translateX(2px); }
+    90% { -webkit-transform: translateX(-2px); transform: translateX(-2px); }
+    100% { -webkit-transform: translateX(0); transform: translateX(0); }
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-2px); }
+    20% { transform: translateX(2px); }
+    30% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    50% { transform: translateX(-2px); }
+    60% { transform: translateX(2px); }
+    70% { transform: translateX(-2px); }
+    80% { transform: translateX(2px); }
+    90% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    -webkit-animation: shake 0.5s infinite;
+    animation: shake 0.5s infinite;
+    border-color: #ff0000;
+    background-color: #ffe6e6;
+}
+
+.shake:last-child {
+    border-bottom: none;
+}
+
+.template-text {
+    display: inline-block;
+    max-width: 25ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: inherit;
+    font-size: 14px;
+    position: relative;
+    cursor: default;
+    color: #555;
+}
+
+.template-text:hover::after {
+    content: attr(title);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: normal;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    transform: translateY(5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    display: none;
+    width: max-content;
+    max-width: 200px;
+}
+
+.template-text:hover::after {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .template-text {
+        max-width: 15ch;
+        font-size: 12px;
+    }
+
+    .template-text:hover::after {
+        max-width: 150px;
+    }
+}
